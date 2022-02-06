@@ -159,7 +159,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Container extraList() => Container(
-        // margin: EdgeInsets.symmetric(vertical: 20.0),
+        margin: EdgeInsets.only(left: 20),
         height: 200.0,
         child: ListView(
           scrollDirection: Axis.horizontal,
@@ -177,7 +177,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Container(
                     // alignment: Alignment.centerLeft,
-                      // margin: EdgeInsets.fromLTRB(0, 23, 0, 0),
+                      margin: EdgeInsets.fromLTRB(0, 23, 0, 0),
                       child: Text(
                         '1분 만에',
                         // textAlign: TextAlign.left,
@@ -192,7 +192,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             ),
                       ),
                   Container(
-                    // margin: EdgeInsets.fromLTRB(70, 16, 10, 20),
+                    margin: EdgeInsets.fromLTRB(40, 16, 10, 20),
                     child: Image.asset(
                       'assets/home_inspector.png',
                       height: 33,
